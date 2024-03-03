@@ -1,4 +1,5 @@
-# Calculator,#codsoft '''
+# Calculator,#codsoft 
+```
 python
 from tkinter import *
 win = Tk()
@@ -62,4 +63,4 @@ point = Button(btns_frame, text=".", fg="black", width=10, height=3, bd=0, bg="#
 equals = Button(btns_frame, text="=", fg="black", width=10, height=3, bd=0, bg="#eee", cursor="hand2",
                 command=lambda: bt_equal()).grid(row=4, column=3, padx=1, pady=1)
 win.mainloop()
-'''
+```
